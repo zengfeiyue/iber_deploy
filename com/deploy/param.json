@@ -1,0 +1,20 @@
+{
+  "base_interface_bulid_path":"D:\\zfy\\workspace\\iber-interface-all\\",
+  "admin_web_bulid_path": "D:\\zfy\\workspace\\iber\\iber-portal",
+  "kill_bulid":false,
+  "dubbo_service":{
+    "iber-service-dsdb-1.0.0.jar":"deploy_path",
+    "iber-day-rent-service-provider-1.0.0.jar":"deploy_path",
+    "iber-employee-service-provider-1.0.0.jar":"deploy_path",
+    "iber-pile-service-provider-1.0.0.jar":"deploy_path",
+    "iber-tbox-service-provider-1.0.0.jar":"deploy_path",
+    "iber-service-provider-1.0.0.jar":"deploy_path",
+    "iber-sms-service-provider-1.0.0.jar":"deploy_path",
+    "/usr/local/iber/rest":"deploy_path"
+  },
+  "admin_app":{
+    "/usr/local/iber/mgt":"deploy_path"
+  },
+  "deploy_test":["iber-sms-service-provider-1.0.0.jar"]
+
+}
